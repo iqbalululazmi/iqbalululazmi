@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 ### Hi there 👋
 # Iqbal Ulul Azmi
 Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for Human Resources Management. Previously worked on Education Technology to help users learn many languages.
