@@ -1,5 +1,3 @@
-<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
 ### Hi there 👋
 # Iqbal Ulul Azmi
 Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for Human Resources Management. Previously worked on Education Technology to help users learn many languages.
@@ -8,9 +6,11 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
 🌟 Build great feature<br>
 💖 Make human life easier<br>
 ☕️ No caffein<br>
-🙌 Shared understanding and knowledge
-F
+🙌 Shared understanding and knowledge<br>
+
+
 ☕ Wanna chat? 👉 @ me on [Twitter](https://twitter.com/iqbalululazmi)
+
 
 <p align="center">
 	<a href="https://github.com/iqbalululazmi"><img src="https://img.shields.io/github/followers/iqbalululazmi?label=Profile&style=social" alt="GitHub"></a>
