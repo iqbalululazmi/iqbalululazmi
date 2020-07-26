@@ -17,7 +17,7 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
       <a href="https://github.com/iqbalululazmi"><img src="https://img.shields.io/github/followers/iqbalululazmi?label=Profile&style=social" alt="GitHub"></a>
     </td>
     <td>
-      : [Iqbal Ulul Azmi](https://github.com/iqbalululazmi)
+       <a href="https://github.com/iqbalululazmi">Iqbal Ulul Azmi</a>
     </td>
   </tr>
   <tr>
@@ -25,7 +25,7 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
       <a href="https://twitter.com/iqbalululazmi"><img src="https://img.shields.io/twitter/follow/iqbalululazmi?label=Profile&style=social" alt="Twitter"></a>
     </td>
     <td>
-      : [Iqbal Ulul Azmi](https://twitter.com/iqbalululazmi)
+       <a href="https://twitter.com/iqbalululazmi">Iqbal Ulul Azmi</a>
     </td>
   </tr>
   <tr>
@@ -33,7 +33,7 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
       <a href="https://www.linkedin.com/in/iqbalululazmi"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
     </td>
     <td>
-      : [Iqbal Ulul Azmi](https://linkedin.com/iqbalululazmi)
+       <a href="https://www.linkedin.com/in/iqbalululazmi">Iqbal Ulul Azmi</a>
     </td>
   </tr>
 </table>
