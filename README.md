@@ -9,6 +9,11 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
 💖 Make human life easier<br>
 ☕️ No caffein<br>
 🙌 Shared understanding and knowledge
+F
+☕ Wanna chat? 👉 @ me on [Twitter](https://twitter.com/iqbalululazmi)
 
-## Visit my profesinal social media
-<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="iqbalululazmi"><a class="LI-simple-link" href='https://id.linkedin.com/in/iqbalululazmi?trk=profile-badge'>Iqbal Ulul Azmi</a></div>
+<p align="center">
+	<a href="https://github.com/iqbalululazmi"><img src="https://img.shields.io/github/followers/iqbalululazmi?label=Profile&style=social" alt="GitHub"></a>
+	<a href="https://twitter.com/iqbalululazmi"><img src="https://img.shields.io/twitter/follow/iqbalululazmi?label=Profile&style=social" alt="Twitter"></a>
+	<a href="https://www.linkedin.com/in/iqbalululazmi"><img src="https://img.shields.io/badge/LinkedIn--_.svg?style=social&logo=linkedin" alt="LinkedIn"></a>
+</p>
