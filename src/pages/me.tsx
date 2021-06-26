@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 export default function Me() {
   return (
     <Layout>
-        <div>Me</div>
+      <div>Me</div>
     </Layout>
   )
 }

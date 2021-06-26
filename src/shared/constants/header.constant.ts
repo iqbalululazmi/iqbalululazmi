@@ -3,61 +3,61 @@ import {
   BookOpenIcon,
   HeartIcon,
   HomeIcon,
-  UserCircleIcon
+  UserCircleIcon,
 } from '@heroicons/react/outline'
 
 const navigations = [
   {
     name: 'Home',
-    href: '/'
+    href: '/',
   },
   {
     name: 'Blog',
-    href: 'blog'
+    href: 'blog',
   },
   {
     name: 'Favorite',
-    href: 'favorite'
+    href: 'favorite',
   },
   {
     name: 'Projects',
-    href: 'project'
+    href: 'project',
   },
   {
     name: 'Know Me 😍',
-    href: 'me'
-  }
+    href: 'me',
+  },
 ]
 
 const mobileNavigations = [
   {
     name: 'Home',
     href: 'home',
-    icon: HomeIcon
+    icon: HomeIcon,
   },
   {
     name: 'Blog',
     href: 'blog',
-    icon: BookOpenIcon
+    icon: BookOpenIcon,
   },
   {
     name: 'Favorite',
     href: '#',
-    icon: HeartIcon
+    icon: HeartIcon,
   },
   {
     name: 'Projects',
     href: '#',
-    icon: ArchiveIcon
+    icon: ArchiveIcon,
   },
   {
     name: 'Know Me 😍',
     href: '#',
-    icon: UserCircleIcon
-  }
+    icon: UserCircleIcon,
+  },
 ]
 
 export const HeaderConstant = {
   navigations,
-  mobileNavigations
+  mobileNavigations,
 }

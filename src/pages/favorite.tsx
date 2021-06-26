@@ -3,7 +3,7 @@ import { Layout } from '../components/Layout'
 export default function Favorite() {
   return (
     <Layout>
-        <div>Favorite</div>
+      <div>Favorite</div>
     </Layout>
   )
 }
