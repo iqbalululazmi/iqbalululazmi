@@ -1,9 +1,9 @@
 import { Layout } from '../components/Layout'
 
-export default function Home() {
+export default function Favorite() {
   return (
     <Layout>
-        <div>Home</div>
+        <div>Favorite</div>
     </Layout>
   )
 }
