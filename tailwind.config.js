@@ -8,7 +8,7 @@ module.exports = {
       ...colors,
       transparent: 'transparent',
       current: 'currentColor',
-      primary: '#4B79A5',
+      primary: '#5A88FF',
       white: {
         pure: '#fff',
         young: '#F9F9F9',

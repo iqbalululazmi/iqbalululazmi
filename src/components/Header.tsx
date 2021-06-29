@@ -17,7 +17,7 @@ export const Header = () => {
       <Popover className="relative bg-white">
         {({ open }) => (
           <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-5 sm:pt-4 mb-3">
+            <div className="max-w-full mx-auto px-4 sm:px-10 sm:pt-4 mb-3">
               <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="#" className="text-primary bold font-semibold">
