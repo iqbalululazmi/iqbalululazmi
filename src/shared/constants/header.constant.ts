@@ -13,19 +13,19 @@ const navigations = [
   },
   {
     name: 'Blog',
-    href: 'blog',
+    href: '/blog',
   },
   {
     name: 'Favorite',
-    href: 'favorite',
+    href: '/favorite',
   },
   {
     name: 'Projects',
-    href: 'project',
+    href: '/project',
   },
   {
     name: 'Know Me 😍',
-    href: 'me',
+    href: '/me',
   },
 ]
 

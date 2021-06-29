@@ -1,3 +1,7 @@
-export const Container = (props: any) => {
-  return <div className="relative bg-white overflow-hidden" />
+export const Container = ({ children, className }: any) => {
+  return (
+    <>
+      <div className={className}>{children}</div>
+    </>
+  )
 }
