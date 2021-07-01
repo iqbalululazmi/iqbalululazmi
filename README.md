@@ -10,4 +10,3 @@ Hi, I'm Iqbal software engineer at GreatDay HR to create the great feature for H
 💖 Make human life easier<br>
 ☕️ No caffein<br>
 🙌 Shared understanding and knowledge<br>
-

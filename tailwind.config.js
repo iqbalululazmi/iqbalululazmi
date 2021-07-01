@@ -12,9 +12,16 @@ module.exports = {
       white: {
         pure: '#fff',
         young: '#F9F9F9',
+        snow: '#F1F5F9',
+        blog: '#EEF0F2',
       },
     },
-    extend: {},
+    extend: {
+      height: (theme) => ({
+        blog: '800px',
+        post: '600px',
+      }),
+    },
   },
   variants: {
     extend: {},
