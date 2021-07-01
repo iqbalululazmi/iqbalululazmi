@@ -15,6 +15,18 @@ module.exports = {
         snow: '#F1F5F9',
         blog: '#EEF0F2',
       },
+      green: {
+        ...colors.green,
+        blog: '#CBDCE1',
+      },
+      gray: {
+        ...colors.gray,
+        blog: '#C2CCD9',
+      },
+      indigo: {
+        ...colors.indigo,
+        blog: '#BACDFC',
+      },
     },
     extend: {
       height: (theme) => ({

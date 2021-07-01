@@ -162,10 +162,43 @@ export default function Home() {
               <h1 className="text-5xl font-bold text-blueGray-800">Blog Terbaru</h1>{' '}
               <span className="text-2xl font-semibold text-gray-600">x</span>
             </div>
-            <div className="flex flex-row h-post gap-5 p-10">
-              <div className="flex-1 bg-white-pure">post</div>
-              <div className="flex-1 bg-white-pure">post</div>
-              <div className="flex-1 bg-white-pure">post</div>
+            <div className="flex flex-row h-post gap-10 px-32 pt-5">
+              <div className="flex-1 bg-white-pure p-4 rounded-2xl">
+                <div className="h-80 bg-green-blog rounded-2xl"></div>
+                <div className="mt-4">
+                  <p className="font-semibold text-gray-400">20 Juni 2020 23:29</p>
+                  <h1 className="font-bold text-2xl">How to make a crazy learner</h1>
+                  <p className="text-gray-400">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum is simply dummy text of the printing and typesetting industry. Read
+                    more...
+                  </p>
+                </div>
+              </div>
+              <div className="flex-1 bg-white-pure p-4 rounded-2xl">
+                <div className="h-80 bg-gray-blog rounded-2xl"></div>
+                <div className="mt-4">
+                  <p className="font-semibold text-gray-400">20 Juni 2020 23:29</p>
+                  <h1 className="font-bold text-2xl">How to make a crazy learner</h1>
+                  <p className="text-gray-400">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum is simply dummy text of the printing and typesetting industry. Read
+                    more...
+                  </p>
+                </div>{' '}
+              </div>
+              <div className="flex-1 bg-white-pure p-4 rounded-2xl">
+                <div className="h-80 bg-indigo-blog rounded-2xl"></div>
+                <div className="mt-4">
+                  <p className="font-semibold text-gray-400">20 Juni 2020 23:29</p>
+                  <h1 className="font-bold text-2xl">How to make a crazy learner</h1>
+                  <p className="text-gray-400">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                    Ipsum is simply dummy text of the printing and typesetting industry. Read
+                    more...
+                  </p>
+                </div>{' '}
+              </div>
             </div>
           </div>
         </section>
