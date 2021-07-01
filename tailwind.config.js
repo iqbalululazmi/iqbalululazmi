@@ -28,6 +28,15 @@ module.exports = {
         blog: '#BACDFC',
       },
     },
+    flex: {
+      1: '1 1 0%',
+      auto: '1 1 auto',
+      initial: '0 1 auto',
+      inherit: 'inherit',
+      none: 'none',
+      2: '2 2 0%',
+      3: '0 0 33.333333%',
+    },
     extend: {
       height: (theme) => ({
         blog: '800px',
