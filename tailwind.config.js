@@ -39,9 +39,25 @@ module.exports = {
     },
     extend: {
       height: (theme) => ({
-        blog: '800px',
-        post: '600px',
+        1000: '1000px',
+        900: '900px',
+        800: '800px',
+        700: '700px',
+        600: '600px',
+        500: '500px',
       }),
+      width: (theme) => ({
+        1000: '1000px',
+        900: '900px',
+        800: '800px',
+        700: '700px',
+        600: '600px',
+        500: '500px',
+        '32rem': '32rem',
+      }),
+      borderRadius: {
+        100: '100px',
+      },
     },
   },
   variants: {
