@@ -26,7 +26,8 @@
       "@components/*": ["src/components/*"],
       "@constants/*": ["src/shared/constants/*"],
       "@services/*": ["src/shared/services/*"],
-      "@styles/*": ["src/styles/*"]
+      "@styles/*": ["src/styles/*"],
+      "@lib/*": ["src/shared/lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

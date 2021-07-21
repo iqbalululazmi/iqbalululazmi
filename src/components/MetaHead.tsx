@@ -3,6 +3,7 @@ export const MetaHead = () => {
   return (
     <Head>
       <title>Iqbal Ulul Azmi</title>
+      <link rel="icon" href="/favicon.ico" />
     </Head>
   )
 }

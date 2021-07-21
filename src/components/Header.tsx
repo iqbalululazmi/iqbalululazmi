@@ -4,17 +4,20 @@ import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { Fragment } from 'react'
+import { useRouter } from 'next/router'
 
 const navigations = HeaderConstant.navigations
 const mobileNavigations = HeaderConstant.mobileNavigations
 
 export const Header = () => {
+  const router = useRouter()
+
   return (
     <div>
       <Popover className="relative bg-white">
         {({ open }) => (
           <>
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 sm:pt-4 mb-3">
+            <div className="max-w-full mx-auto px-4 sm:px-10 sm:pt-4 mb-3">
               <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="#" className="text-primary bold font-semibold">
@@ -30,7 +33,11 @@ export const Header = () => {
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                   {navigations.map((item) => (
                     <Link key={item.name} href={item.href}>
-                      <a className="mr-4 whitespace-nowrap text-base font-medium text-gray-500 hover:text-primary">
+                      <a
+                        className={`${
+                          router.pathname === item.href ? 'text-primary' : ''
+                        } mr-4 whitespace-nowrap text-base font-medium text-gray-500 hover:text-primary`}
+                      >
                         {item.name}
                       </a>
                     </Link>
