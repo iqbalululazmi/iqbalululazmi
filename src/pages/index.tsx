@@ -1,24 +1,12 @@
+import { Button } from '@components/Button'
 import { Container } from '@components/Container'
 import { Divider } from '@components/Divider'
 import { Layout } from '@components/Layout'
 import Image from 'next/image'
-import { useEffect } from 'react'
-import { toast, ToastContainer } from 'react-toastify'
 
 export default function Home() {
-  useEffect(() => {
-    toast.success('This website is under development 🚀', {
-      position: toast.POSITION.BOTTOM_CENTER,
-      hideProgressBar: false,
-      autoClose: false,
-      closeOnClick: false,
-      closeButton: false,
-    })
-  }, [])
-
   return (
     <>
-      <ToastContainer />
       <Layout className="bg-white-young">
         <section id="banner" className="my-4">
           <div className="px-20 h-700 w-full bg-white-pure rounded-2xl flex flex-row justify-between">
@@ -42,14 +30,9 @@ export default function Home() {
                   tapi kalo mau bisa klik tombol di bawah.
                 </p>
               </div>
-              <div>
-                <button
-                  type="button"
-                  className="rounded-xl w-80 h-14 border p-4 bg-primary text-white-pure"
-                >
-                  Play with Me
-                </button>
-              </div>
+              <Button className="rounded-xl w-80 h-14 border p-4 bg-primary text-white-pure ">
+                Play with Me
+              </Button>
             </div>
             <div className="mx-10 h-full flex flex-col justify-center">
               <Image
@@ -76,12 +59,9 @@ export default function Home() {
                   others
                 </h2>
                 <div className="mt-12">
-                  <button
-                    type="button"
-                    className="rounded-xl w-500 h-14 border p-4 bg-primary text-white-pure"
-                  >
+                  <Button className="rounded-xl w-500 h-14 border p-4 bg-primary text-white-pure ">
                     Explore My Work
-                  </button>
+                  </Button>
                 </div>
               </div>
               <div>
