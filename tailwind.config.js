@@ -61,7 +61,10 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    animation: ['responsive', 'motion-safe', 'motion-reduce', 'hover'],
+    extend: {
+      animation: ['motion-safe'],
+    },
   },
   plugins: [],
 }

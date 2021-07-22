@@ -1,0 +1,34 @@
+.verticalLine {
+  border-left: 1px solid white;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 200px;
+}
+
+.circle {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.step1 {
+  left: -18px;
+}
+
+.step2 {
+  left: -18px;
+  top: 180px;
+}
+
+.step3 {
+  left: -18px;
+  top: 360px;
+}
+
+.step4 {
+  left: -18px;
+  top: 540px;
+}
