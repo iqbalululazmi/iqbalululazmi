@@ -1,7 +1,7 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { HeaderConstant } from '@constants/header.constant'
 import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { MenuIcon, XIcon, GlobeAltIcon, MoonIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { useRouter } from 'next/router'
@@ -42,6 +42,16 @@ export const Header = () => {
                       </a>
                     </Link>
                   ))}
+                  <div className="flex flex-row gap-x-2">
+                    <GlobeAltIcon
+                      className=" h-5 w-5 text-gray-500 cursor-pointer"
+                      aria-hidden="true"
+                    />
+                    <MoonIcon
+                      className=" h-5 w-5 text-gray-500 cursor-pointer"
+                      aria-hidden="true"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
