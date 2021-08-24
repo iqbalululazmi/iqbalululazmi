@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 const navigations = HeaderConstant.navigations
 const mobileNavigations = HeaderConstant.mobileNavigations
 
-export const Header = ({ classHeader }: any) => {
+export const Header = ({ isNavbarSecond }: any) => {
   const router = useRouter()
 
   return (
@@ -20,7 +20,12 @@ export const Header = ({ classHeader }: any) => {
             <div className="max-w-full mx-auto px-4 sm:px-24 sm:pt-4 mb-3">
               <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
-                  <a href="#" className="text-primary bold font-semibold text-xl">
+                  <a
+                    href="#"
+                    className={`${
+                      isNavbarSecond ? 'text-white-pure' : 'text-primary'
+                    } bold font-semibold text-xl`}
+                  >
                     Iqbal Ulul Azmi
                   </a>
                 </div>
@@ -35,8 +40,13 @@ export const Header = ({ classHeader }: any) => {
                     <Link key={item.name} href={item.href}>
                       <a
                         className={`${
-                          router.pathname === item.href ? 'text-primary' : ''
-                        } mr-4 whitespace-nowrap text-base font-medium text-gray-500 hover:text-primary`}
+                          router.pathname === item.href
+                            ? isNavbarSecond
+                              ? 'text-white-pure'
+                              : 'text-primary'
+                            : 'text-gray-500 '
+                        } mr-4 whitespace-nowrap text-base font-medium
+                         ${isNavbarSecond ? 'hover:text-white-pure' : 'hover:text-primary'} `}
                       >
                         {item.name}
                       </a>
