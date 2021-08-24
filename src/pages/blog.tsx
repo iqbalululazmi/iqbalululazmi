@@ -7,7 +7,7 @@ export default function Blog({ posts }: any) {
   // props post is return from getStaticProps
   return (
     <>
-      <Layout className="bg-white-pure border-t">
+      <Layout classLayout="bg-white-pure border-t">
         <section id="banner" className="my-4">
           <div className="px-20 h-72 w-full bg-white-pure rounded-2xl flex flex-col justify-center text-center">
             <h1 className="text-6xl mb-8 font-bold text-coolGray-900">

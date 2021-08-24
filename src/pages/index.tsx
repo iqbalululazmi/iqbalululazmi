@@ -7,7 +7,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <>
-      <Layout className="bg-white-young">
+      <Layout classLayout="bg-white-young">
         <section id="banner" className="my-4">
           <div className="px-20 h-700 w-full bg-white-pure rounded-2xl flex flex-row justify-between">
             <div className="h-full flex flex-col justify-center">

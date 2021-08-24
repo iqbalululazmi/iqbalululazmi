@@ -9,7 +9,7 @@ import { useRouter } from 'next/router'
 const navigations = HeaderConstant.navigations
 const mobileNavigations = HeaderConstant.mobileNavigations
 
-export const Header = () => {
+export const Header = ({ classHeader }: any) => {
   const router = useRouter()
 
   return (
@@ -17,7 +17,7 @@ export const Header = () => {
       <Popover className="relative bg-white">
         {({ open }) => (
           <>
-            <div className="max-w-full mx-auto px-4 sm:px-10 sm:pt-4 mb-3">
+            <div className="max-w-full mx-auto px-4 sm:px-24 sm:pt-4 mb-3">
               <div className="flex justify-between items-center py-3 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
                   <a href="#" className="text-primary bold font-semibold text-xl">
