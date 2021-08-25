@@ -7,7 +7,7 @@ import styles from './../styles/pages/me.module.css'
 export default function Me() {
   return (
     <>
-      <Layout className="bg-white-young">
+      <Layout classLayout="bg-white-young">
         <section id="banner" className="my-4">
           <div className="px-8 h-700 w-full bg-white-pure rounded-2xl flex flex-row justify-between">
             <div className="mx-10 w-500 h-full flex flex-col justify-center">

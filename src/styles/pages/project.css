@@ -1,0 +1,21 @@
+.hero-section {
+  background-image: url('../../../public/images/tim-marshall-cAtzHUz7Z8g-unsplash.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-awesome-project {
+  background-color: #0d141c;
+}
+
+.bg-project-1 {
+  background-color: #f9f8fc;
+}
+
+.bg-project-2 {
+  background-color: #dee3ef;
+}
+
+.bg-project-3 {
+  background-color: #172430;
+}
