@@ -1,4 +1,4 @@
-import { Container } from './Container'
+import { Container } from '@components/core/Container'
 
 export const Divider = () => {
   return (

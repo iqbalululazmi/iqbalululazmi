@@ -1,4 +1,4 @@
-import { Layout } from '@components/Layout'
+import { Layout } from '@components/core/Layout'
 import getAllPosts from '@lib/data'
 import { format, parseISO } from 'date-fns'
 import Link from 'next/link'

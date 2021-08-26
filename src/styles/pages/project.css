@@ -1,6 +1,9 @@
 .hero-section {
-  background-image: url('../../../public/images/tim-marshall-cAtzHUz7Z8g-unsplash.jpeg');
-  background-repeat: no-repeat;
+  background: url('https://res.cloudinary.com/iqbalululazmi/image/upload/c_scale,h_800/v1629985026/tim-marshall-cAtzHUz7Z8g-unsplash_vjgfic.jpg')
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
