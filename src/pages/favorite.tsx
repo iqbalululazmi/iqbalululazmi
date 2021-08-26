@@ -1,4 +1,4 @@
-import { Layout } from '../components/Layout'
+import { Layout } from '@components/core/Layout'
 
 export default function Favorite() {
   return (

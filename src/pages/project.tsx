@@ -1,6 +1,6 @@
-import { Container } from '@components/Container'
+import { Container } from '@components/core/Container'
 import Image from 'next/image'
-import { Layout } from '../components/Layout'
+import { Layout } from '@components/core/Layout'
 
 export default function Project() {
   return (

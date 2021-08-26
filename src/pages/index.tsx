@@ -1,7 +1,7 @@
 import { Button } from '@components/Button'
-import { Container } from '@components/Container'
+import { Container } from '@components/core/Container'
 import { Divider } from '@components/Divider'
-import { Layout } from '@components/Layout'
+import { Layout } from '@components/core/Layout'
 import Image from 'next/image'
 
 export default function Home() {
@@ -66,7 +66,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src="/images/porto.png"
+                  src="https://res.cloudinary.com/iqbalululazmi/image/upload/c_scale,h_1900/v1629988685/porto_sminqt.png"
                   width="800"
                   height="800"
                   alt="Picture of the author"
