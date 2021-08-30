@@ -1,5 +1,5 @@
 import '@styles/core/globals.css'
-import '@styles/pages/project.css'
+import '@styles/index.scss'
 import type { AppProps } from 'next/app'
 import { useEffect } from 'react'
 import { toast, ToastContainer } from 'react-toastify'
