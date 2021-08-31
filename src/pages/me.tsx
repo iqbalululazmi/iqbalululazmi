@@ -2,7 +2,7 @@ import { Container } from '@components/core/Container'
 import { Layout } from '@components/core/Layout'
 import Image from 'next/image'
 import { Button } from '@components/Button'
-import styles from './../styles/pages/me.module.css'
+import styles from './../styles/pages/me.module.scss'
 
 export default function Me() {
   return (
