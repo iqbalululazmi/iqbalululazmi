@@ -24,10 +24,10 @@
     "paths": {
       "@pages/*": ["src/pages/*"],
       "@components/*": ["src/components/*"],
-      "@constants/*": ["src/shared/constants/*"],
-      "@services/*": ["src/shared/services/*"],
+      "@constants/*": ["src/constants/*"],
+      "@services/*": ["src/services/*"],
       "@styles/*": ["src/styles/*"],
-      "@lib/*": ["src/shared/lib/*"]
+      "@lib/*": ["src/lib/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],

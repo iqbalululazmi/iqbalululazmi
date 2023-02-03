@@ -1,0 +1,24 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo '🏗️👷 Testing your project before pushing'
+
+# npm run test ||
+# (
+#     echo '🤡😂❌🤡 Failed test. 🤡😂❌🤡
+#             Are you seriously trying to write that? Make the changes required above.'
+#     false;
+# )
+
+# echo '🏗️👷 Building your project before pushing'
+
+npm run build ||
+(
+    echo '❌👷🔨❌ Better call Tri... Because your build failed ❌👷🔨❌
+            Next export failed: View the errors above to see why. 
+    '
+    false;
+)
+
+# If everything passes... Now we can commit
+echo '✅✅✅✅ You win this time... I am pushing this now. ✅✅✅✅'

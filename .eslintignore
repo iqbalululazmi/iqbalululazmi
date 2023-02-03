@@ -1,6 +1,12 @@
 .next
 next-env.d.ts
 node_modules
+functions/node_modules
 yarn.lock
 package-lock.json
 public
+out
+.eslintrc
+functions/.eslintrc.js
+functions/
+.vscode/settings.json
