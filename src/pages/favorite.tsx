@@ -1,5 +1,5 @@
-import { Container } from '@components/core/Container'
-import { Layout } from '@components/core/Layout'
+import { Container } from '@components/Atoms/Container'
+import { Layout } from '@components/Layout/Layout'
 import { SearchIcon } from '@heroicons/react/outline'
 
 export default function Favorite() {

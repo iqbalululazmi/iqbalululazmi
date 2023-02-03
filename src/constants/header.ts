@@ -6,7 +6,7 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/outline'
 
-const navigations = [
+export const NAVIGATION = [
   {
     name: 'Home',
     href: '/',
@@ -29,7 +29,7 @@ const navigations = [
   },
 ]
 
-const mobileNavigations = [
+export const MOBILE_NAVIGATION = [
   {
     name: 'Home',
     href: 'home',
@@ -56,8 +56,3 @@ const mobileNavigations = [
     icon: UserCircleIcon,
   },
 ]
-
-export const HeaderConstant = {
-  navigations,
-  mobileNavigations,
-}

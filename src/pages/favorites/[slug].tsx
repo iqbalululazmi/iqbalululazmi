@@ -1,4 +1,4 @@
-import { Layout } from '@components/core/Layout'
+import { Layout } from '@components/Layout/Layout'
 import getAllPosts from '@lib/data'
 import { format, parseISO } from 'date-fns'
 import hydrate from 'next-mdx-remote/hydrate'

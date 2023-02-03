@@ -1,9 +1,9 @@
-import { Footer } from './Footer'
-import { Header } from './Header'
-import { MetaHead } from './MetaHead'
-import { Container } from '@components/core/Container'
-import ScrollButton from '@components/ScrollButton'
+import { MetaHead } from '../Atoms/MetaHead'
+import { Container } from '@components/Atoms/Container'
 import { motion } from 'framer-motion'
+import { Header } from '@components/Atoms/Header'
+import { Footer } from '@components/Atoms/Footer'
+import ScrollButton from '@components/Atoms/ScrollButton'
 
 export const Layout = ({ children, classLayout, classContainer, isNavbarSecond }: any) => {
   const variants = {

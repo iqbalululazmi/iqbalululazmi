@@ -1,13 +1,12 @@
 import { useEffect, useState } from 'react'
 import { ArrowCircleUpIcon } from '@heroicons/react/solid'
-import { ButtonToScroll } from '@components/styled/Button'
+import { ButtonToScroll } from './Button'
 
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false)
 
   const toggleVisible = () => {
     const scrolled = document.documentElement.scrollTop
-    console.log('scrollevisible')
     if (scrolled > 300) {
       setVisible(true)
     } else if (scrolled <= 300) {

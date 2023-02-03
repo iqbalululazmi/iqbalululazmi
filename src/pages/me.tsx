@@ -1,7 +1,7 @@
-import { Container } from '@components/core/Container'
-import { Layout } from '@components/core/Layout'
+import { Container } from '@components/Atoms/Container'
+import { Layout } from '@components/Layout/Layout'
 import Image from 'next/image'
-import { Button } from '@components/Button'
+import { Button } from '@components/Atoms/Button'
 import styles from './../styles/pages/me.module.scss'
 
 export default function Me() {

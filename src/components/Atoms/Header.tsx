@@ -1,13 +1,10 @@
 /* This example requires Tailwind CSS v2.0+ */
-import { HeaderConstant } from '@constants/header.constant'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon, GlobeAltIcon, MoonIcon } from '@heroicons/react/outline'
 import Link from 'next/link'
 import { Fragment } from 'react'
 import { useRouter } from 'next/router'
-
-const navigations = HeaderConstant.navigations
-const mobileNavigations = HeaderConstant.mobileNavigations
+import { MOBILE_NAVIGATION, NAVIGATION } from '@constants/header'
 
 export const Header = ({ isNavbarSecond }: any) => {
   const router = useRouter()
@@ -36,7 +33,7 @@ export const Header = ({ isNavbarSecond }: any) => {
                   </Popover.Button>
                 </div>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-                  {navigations.map((item) => (
+                  {NAVIGATION.map((item) => (
                     <Link key={item.name} href={item.href}>
                       <a
                         className={`${
@@ -95,7 +92,7 @@ export const Header = ({ isNavbarSecond }: any) => {
                     </div>
                     <div className="mt-6">
                       <nav className="grid gap-y-8">
-                        {mobileNavigations.map((item) => (
+                        {MOBILE_NAVIGATION.map((item) => (
                           <a
                             key={item.name}
                             href={item.href}

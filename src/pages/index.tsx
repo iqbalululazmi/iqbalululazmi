@@ -1,7 +1,7 @@
-import { Button } from '@components/Button'
-import { Container } from '@components/core/Container'
-import { Divider } from '@components/Divider'
-import { Layout } from '@components/core/Layout'
+import { Button } from '@components/Atoms/Button'
+import { Container } from '@components/Atoms/Container'
+import { Divider } from '@components/Atoms/Divider'
+import { Layout } from '@components/Layout/Layout'
 import Image from 'next/image'
 
 export default function Home() {
